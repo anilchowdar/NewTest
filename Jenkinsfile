@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout Scm') {
       steps {
-        git(url: 'https://github.com/anilchowdar/Robotics.git', credentialsId: '89678e7e-057b-4d24-a0b4-2878dbe5d38d')
+        git(url: 'https://github.com/anilchowdar/TestcProgram.git', credentialsId: '89678e7e-057b-4d24-a0b4-2878dbe5d38d')
       }
     }
 
