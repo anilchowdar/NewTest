@@ -1,6 +1,9 @@
 //Declarative Pipeline
 pipeline {
   agent any
+  options {
+    skipDefaultcheckout true
+  }
   stages {
     stage('Checkout Scm') {
       steps {
