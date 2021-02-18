@@ -2,7 +2,7 @@
 pipeline {
   agent any
   options {
-    skipDefaultcheckout true
+    skipDefaultcheckout()
   }
   stages {
     stage('Checkout Scm') {
